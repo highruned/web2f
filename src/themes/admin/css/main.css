@@ -1,0 +1,662 @@
+*
+{
+	margin: 0pt;
+	padding: 0pt;
+}
+
+html
+{
+}
+
+body
+{
+	font-size: 62.5%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-align: center;
+}
+
+body, .wrapper, input, textarea, select, table
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+table
+{
+	font-size: 1.0em;
+}
+
+td.fix
+{
+	vertical-align: top;
+}
+
+.wrapper, input, textarea, select
+{
+	font-size: 1.1em;
+}
+
+input, textarea
+{
+	border-style: solid;
+	border-width: 1px;
+}
+
+input.special, textarea.special
+{
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 3px 5px;
+	line-height: 1.5em;
+}
+
+input.special:hover,
+textarea.special:hover
+{
+	border-style: solid;
+	border-width: 1px;
+}
+
+/* Reset Input */
+
+input.reset,
+textarea.reset
+{
+	background-color: transparent;
+	border: 0pt none;
+	border-radius: 0pt;
+	-moz-border-radius: 0pt;
+	-khtml-border-radius: 0pt;
+	-webkit-border-radius: 0pt;
+}
+
+img, table
+{
+	border: 0pt none;
+}
+
+.clear, br
+{
+	clear: both;
+}
+
+.hide
+{
+	display: none;
+}
+
+.help
+{
+	cursor: help;
+}
+
+textarea, input, select
+{
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: normal;
+	padding: 3px;
+}
+
+select
+{
+	border-style: solid;
+	border-width: 1px;
+	line-height: 20px;
+	padding: 2px;
+	vertical-align: top;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+a.fix
+{
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5
+{
+	font-size: 1.2em;
+}
+
+h1
+{
+	font-size: 1.6em;
+	font-weight: normal;
+	padding: 6px 3px 3px 10px;
+}
+
+h2
+{
+	display: block;
+	clear: both;
+	font-family: Georgia, "New Times Roman", Times, sans-serif;
+	font-size: 2em;
+	font-weight: normal;
+	padding-bottom: 3px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+h3
+{
+	display: block;
+	font-weight: bold;
+}
+
+h4
+{
+	display: block;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+}
+
+/* Tooltips */
+
+h4 strong
+{
+	float: left;
+}
+
+h4 span.formInfo
+{
+	float: right;
+}
+
+fieldset
+{
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+}
+
+legend
+{
+	padding: 0pt 4px;
+}
+
+/* Minimum Width */
+
+div.top,
+div.wrapper,
+div.bottom
+{
+	min-width: 700px;
+}
+
+/* Top */
+
+div.top
+{
+	margin: 15px 15px 0pt 15px;
+}
+
+/* Top - Header */
+
+div.top div.header
+{
+	position: relative;
+	height: 69px;
+}
+
+div.top div.header div.header-l
+{
+	padding-left: 6px;
+	height: 69px;
+}
+
+div.top div.header div.header-r
+{
+	padding-right: 6px;
+	height: 69px;
+}
+
+div.top div.header div.header-bg
+{
+	height: 69px;
+}
+
+div.top div.header h1
+{
+	font-family: Cambria, "Times New Roman", Times, serif;
+	font-size: 2.5em;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-align: left;
+}
+
+div.top div.header h1 a
+{
+	text-decoration: none !important;
+}
+
+div.top div.header h1 em
+{
+	font-weight: normal;
+}
+
+/* Navigation */
+
+div.navigation
+{
+	position: absolute;
+	bottom: 0pt;
+	_bottom: -1px;
+}
+
+/* Navigation - Tab */
+
+div.navigation ul li
+{
+	_width: 4%;
+	padding-left: 6px;
+	margin-left: 1px;
+}
+
+div.navigation ul li a,
+div.navigation ul li div
+{
+	display: block;
+	padding: 4px 3px 5px 8px;
+	font-weight: bold;
+	font-size: 1.2em;
+	line-height: 25px;
+	height: 25px;
+	padding: 0pt 10px 0pt 5px;
+	text-decoration: none !important;
+	white-space: nowrap;
+}
+
+div.navigation ul li div
+{
+	cursor: default;
+}
+
+/* Navigation - Tab - Hover */
+
+div.navigation ul li.hover
+{
+	background-position: 0% 50%;
+}
+
+div.navigation ul li.hover a
+{
+	background-position: 100% 50%;
+}
+
+/* Navigation - Tab - Active */
+
+div.navigation ul li.active
+{
+	background-position: 0% 100%;
+}
+
+div.navigation ul li.active a
+{
+	background-position: 100% 100%;
+}
+
+/* Wrapper */
+
+div.wrapper
+{
+	font-size: 1.1em;
+	margin: 0px auto;
+	text-align: left;
+	margin: 15px 15px 0pt 15px;
+}
+
+/* Wrapper - Fluid Table */
+
+div.wrapper table.fluid
+{
+	width: 100%;
+}
+
+/* Wrapper - Location */
+
+div.wrapper div.location
+{
+	text-align: center;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	height: 28px;
+}
+
+div.wrapper div.location div.main
+{
+	text-align: left;
+	line-height: 28px;
+	height: 28px;
+	font-weight: bold;
+}
+
+/* Wrapper - Left */
+
+div.wrapper td.left
+{
+	vertical-align: top;
+}
+
+div.wrapper td.left div.menu
+{
+	padding: 10px 30px 0pt 0pt;
+	width: 210px;
+}
+
+div.wrapper td.left div.menu div.main
+{
+	padding-bottom: 10px;
+	width: 210px;
+}
+
+div.wrapper td.left div.menu div.main ul.menu
+{
+
+}
+
+div.wrapper td.left div.menu div.main ul.menu li
+{
+	float: none;
+}
+
+div.wrapper td.left div.menu div.main ul.menu li a
+{
+	display: block;
+	padding-left: 10px;
+	border-width: 1px 1px 1px 0pt;
+	border-style: solid solid solid none;
+	height: 25px;
+	line-height: 25px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* Wrapper - Right */
+
+div.wrapper td.right
+{
+	width: 100%;
+	vertical-align: top;
+}
+
+div.wrapper td.right div.main
+{
+
+}
+
+div.wrapper td.right div.content
+{
+	padding: 15px;
+	overflow: hidden;
+}
+
+div.wrapper td.right div.footer
+{
+
+}
+
+div.wrapper td.right div.main div.templates fieldset
+{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/* UL Fix */
+
+ul.fix
+{
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+}
+
+ul.fix li
+{
+	float: left;
+}
+
+/* Footer */
+
+div.footer
+{
+
+}
+
+div.footer div.copyright
+{
+	float: left;
+	padding: 8px 2px 4px 25px;
+}
+
+div.footer div.menu
+{
+	float: right;
+	padding: 8px 5px 4px 2px;
+}
+
+div.footer div.menu ul.menu li
+{
+	margin-right: 10px;
+}
+
+/* Bottom */
+
+div.bottom
+{
+	margin: 15px 15px 0pt 15px;
+}
+
+.message-red,
+.message-green,
+.message-blue,
+.message-yellow,
+.message-orange,
+.message-gold,
+.error,
+.success
+{
+	font-weight: bold;
+	border-style: solid;
+	border-width: 1px;
+	padding: 12px;
+}
+
+input.submit
+{
+	padding: 4px;
+	font-weight: bold;
+}
+
+/* Box #1 */
+
+div.box-1
+{
+	padding-left: 10px;
+}
+
+div.box-1 div.state
+{
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 10px;
+	margin-left: 11px;
+	padding: 2px;
+}
+
+div.box-1 div.state h3
+{
+	cursor: pointer;
+	height: 31px;
+}
+
+div.box-1 div.state h3 span
+{
+	float: left;
+	padding: 7px;
+	font-size: 1.05em;
+	font-weight: bold;
+}
+
+div.box-1 div.state h3 a
+{
+	display: block;
+	float: right;
+	margin-right: 6px;
+	margin-top: 6px;
+	text-align: right;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 4px;
+	font-weight: normal;
+	color: #FFF;
+	font-size: 0.8em;
+}
+
+div.box-1 div.state div.toggle
+{
+	position: absolute;
+	width: 12px;
+	height: 37px;
+	margin-top: -3px;
+	margin-left: -14px;
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+	-moz-border-radius-bottomleft: 3px;
+	-moz-border-radius-topleft: 3px;
+	text-indent: -9999px;
+}
+
+div.box-1 div.opened div.toggle
+{
+	background-position: 0% 50%;
+}
+
+div.box-1 div.state div.inside
+{
+	padding: 15px;
+	display: none;
+}
+
+div.box-1 div.state div.inside a
+{
+	font-weight: bold;
+}
+
+div.box-1 div.state div.inside a.screenshot
+{
+	display: block;
+	overflow: hidden;
+	border-style: solid;
+	border-width: 1px;
+	width: 250px;
+	height: 200px;
+	margin: auto auto 10px;
+}
+
+div.box-1 div.opened div.inside
+{
+	display: block;
+}
+
+.codepress
+{
+	width: 0pt;
+	height: 0pt;
+}
+
+/* Box #2 */
+
+div.box-2
+{
+	float: left;
+	border-color: #EBEBEB #C3CAD9 #C3CAD9 #EBEBEB;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+	padding: 2px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+div.box-2 h3
+{
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 5px;
+}
+
+div.box-2 a
+{
+	color: #455372;
+	text-decoration: none !important;
+}
+
+div.box-2 a:hover h3
+{
+	background-color: #D6E5F3;
+}
+
+div.box-2 div.inside a
+{
+	font-weight: bold;
+}
+
+table.jTable
+{
+	border-color: #EBEBEB #C3CAD9 #C3CAD9 #EBEBEB;
+	border-style: solid;
+	border-width: 1px;
+}
+
+table.jTable thead th
+{
+	padding: 7px;
+	background-color: #EAF3FA;
+}
+
+table.jTable td
+{
+	padding: 7px;
+}
+
+table.jTable td a
+{
+	color: #4B7FC4;
+	font-weight: bold;
+}
+
+table.jTable th a
+{
+	color: #455372;
+}
+
+.slideBox
+{
+	width: 100%;
+}

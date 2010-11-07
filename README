@@ -1,0 +1,13 @@
+== web2f Readme
+First attempt at a PHP 5 CMS from a couple years ago. Proceed with caution. I may use it for personal sites and update it as I go along. Maybe.
+
+== License
+web2f is released under the MIT license and is copyright (c) 2009 Eric Muyser (eric.muyser.com). A copy of the MIT license can be found in the LICENSE file.
+
+== Information
+
+The entire framework is based around a hack I came up with that everything is a module that can be overloaded based on precedence (which loaded last).
+
+All of the pages are stored in SQL, which was beneficial to begin with, but difficult to update.
+
+It was a pretty bad attempt.

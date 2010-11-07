@@ -1,0 +1,14 @@
+<module>
+	<title>
+		Database
+	</title>
+	<description>
+		Database connector, auto connect, master/slave manager.
+	</description>
+	<author>
+		Z
+	</author>
+	<url>
+		http://www.z.com/
+	</url>
+</module>

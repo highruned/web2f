@@ -1,0 +1,8 @@
+<macros>
+	<BOOM>
+		<![CDATA[<a href="http://domain.com/">BOOM</a>]]>
+	</BOOM>
+	<ROAR>
+		<![CDATA[<a href="http://domain.com/">ROAR</a>]]>
+	</ROAR>
+</macros>

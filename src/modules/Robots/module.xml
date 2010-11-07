@@ -1,0 +1,14 @@
+<module>
+	<title>
+		Robots
+	</title>
+	<description>
+		Automatically generate robots.txt if one doesn't exist.
+	</description>
+	<author>
+		Z CMS
+	</author>
+	<url>
+		http://www.z.com/
+	</url>
+</module>

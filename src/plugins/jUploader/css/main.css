@@ -1,0 +1,201 @@
+
+.upload-manager h1, .Uploader h2, .Uploader h3, .Uploader h4, .Uploader h5, .Uploader h6 {
+	padding: 0 0 3px 0;
+}
+
+.upload-manager h1 {
+	font-size: 1.4em;
+	margin: 0 0 2px 0;
+}
+
+.upload-manager h2 {
+	font-size: 1.2em;
+	margin: 0 0 2px 0;
+}
+
+.upload-manager fieldset {
+
+border: medium none;
+padding: 0pt;
+
+}
+
+.upload-manager fieldset legend {
+	display: none;
+}
+
+.upload-manager div.inputWrapper {
+	margin: 0 0 1em 0;
+	padding: 4px;
+}
+
+.upload-manager div.inputWrapper label,
+.upload-manager div.inputWrapper input {
+	display: block;
+}
+
+.upload-manager div.inputWrapper label {
+	font-weight: bold;
+}
+
+.upload-manager button {
+	width: 75px;
+	height: 30px;
+border-style:solid;
+border-width:1px;
+	padding: 2px 2px 2px 16px;
+	
+}
+
+.upload-manager button#btnBrowse{
+	background: url('../images/browse.png') 4px center no-repeat;
+}
+
+.upload-manager button#btnUpload{
+	background: url('../images/upload.png') 4px center no-repeat;
+}
+
+.upload-manager button#btnCancel {
+	background: url('../images/cancel.png') 4px center no-repeat;
+}
+
+.upload-manager input#btnSubmit,
+.upload-manager input#btnReset {
+	width: 75px;
+	height: 30px;
+	padding: 2px 2px 2px 16px;
+}
+
+.upload-manager input#btnSubmit {
+	background: url('../images/upload.png') 4px center no-repeat;
+}
+
+.upload-manager input#btnReset {
+	background: url('../images/cancel.png') 4px center no-repeat;
+}
+
+.upload-manager div.Uploader {
+
+}
+
+.upload-manager div.UploaderQueue {
+	height: 500px;
+	overflow-y: scroll;
+}
+
+.upload-manager div.UploaderItem {
+	height: 40px;
+	margin: 0 0 0 0;
+	overflow: hidden;
+	background: url('../images/bgUpload.gif') left bottom repeat-x;
+}
+
+.upload-manager div.UploaderItem.active {
+	background: url('../images/bgUploadActive.gif') left bottom repeat-x;
+}
+
+.upload-manager div.UploaderItemWrapper {
+	padding: 12px;
+}
+
+.upload-manager div.UploaderItemWrapper a {
+	padding: 2px 0 0 20px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+
+.upload-manager div.UploaderItemWrapper a:hover {
+	color: #0000ff;
+}
+
+.upload-manager div.UploaderItemWrapper a.uploadDelete {
+	background: url('../images/uploadDelete.png') left center no-repeat;
+}
+
+.upload-manager div.UploaderItemWrapper a.uploadError {
+	background: url('../images/uploadError.png') left center no-repeat;
+}
+
+.upload-manager div.UploaderItemWrapper a.uploadSuccess {
+	background: url('../images/uploadSuccess.png') left center no-repeat;
+}
+
+.upload-manager div.UploaderProgress {
+	margin: 1em 0 0.25em 0;
+	border: 1px solid #999999;
+}
+
+.upload-manager div.UploaderProgress div.UploaderProgressBar {
+	overflow: hidden;
+	width: 0%;
+	color: #ffffff;
+	background: #000033;
+	text-align: right;
+	font-weight: bold;
+}
+
+.upload-manager div.UploaderLog {
+	border-left: 1px solid #404040;
+	border-top: 1px solid #404040;
+	border-right: 1px solid #d4d0c8;
+	border-bottom: 1px solid #d4d0c8;
+	background: #FFFFFF;
+	height: 144px;
+	overflow-y: scroll;
+}
+
+.upload-manager div.UploaderLog > div.message,
+.upload-manager div.UploaderLog > div.critical,
+.upload-manager div.UploaderLog > div.error {
+	font-size: 1em;
+	line-height: 1.4em;
+	border-bottom: 1px dotted #666666;
+}
+
+.upload-manager div.UploaderLog > div.message {
+	background: #f0f0f0 url('../images/log_message.png') no-repeat 128px 1px;
+}
+
+.upload-manager div.UploaderLog > div.critical {
+	background: #f0f0f0 url('../images/log_critical.png') no-repeat 128px 1px;
+}
+
+.upload-manager div.UploaderLog > div.error {
+	background: #f0f0f0 url('../images/log_error.png') no-repeat 128px 1px;
+}
+
+.upload-manager div.UploaderLog > div > div.date {
+	float: left;
+	width: 120px;
+	height: 100%;
+	font-size: 9px;
+	font-weight: bold;
+	background: #E6E6E6;
+	padding: 0 0 0 4px;
+	margin: 0 24px 0 0;
+}
+
+.upload-manager ul, ol {
+	margin: 0 0 0 20px;
+}
+
+.upload-manager .blue {
+	color: #0000ff;
+}
+
+.upload-manager #notice {
+	border: 2px solid #ff0000;
+	color: #ffcc00;
+	background: #333333;
+	padding: 8px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 0 1em 0;
+}
+
+.upload-manager h1 span {
+	font-weight: normal;
+	font-size: 0.6em;
+	color: #666666;
+}

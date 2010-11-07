@@ -1,0 +1,14 @@
+<module>
+	<title>
+		Core
+	</title>
+	<description>
+		The core behind every module. Do not disable or change sort.
+	</description>
+	<author>
+		Z
+	</author>
+	<url>
+		http://www.z.com/
+	</url>
+</module>

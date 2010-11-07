@@ -1,0 +1,14 @@
+<module>
+	<title>
+		Sitemap
+	</title>
+	<description>
+		If a sitemap.xml does not already exist, this module will automatically generate an up to date sitemap.xml for the entire site. This is a valid sitemap for Google, Yahoo, MSN, etc.
+	</description>
+	<author>
+		Z
+	</author>
+	<url>
+		http://www.z.com/
+	</url>
+</module>

@@ -1,0 +1,298 @@
+body
+{
+	color: #455372;
+	background: #FFF url(../images/body-bg.gif) repeat-x 0% 0%;
+	background-color: #FFF;
+}
+
+input.special, textarea.special
+{
+	color: #4B7FC4;
+	background-color: #EAF3FA;
+	border-color: #CCE0F0;
+}
+
+input.special:hover,
+textarea.special:hover
+{
+	color: #394664;
+	border-color: #ADCCE8;
+}
+
+input.submit
+{
+	color: #FFF;
+	background-color: #394664;
+}
+
+input.submit:hover
+{
+	background-color: #009933;
+}
+
+a
+{
+	color: #222;
+}
+
+h1, h2, h3, h4, h5
+{
+
+}
+
+h2
+{
+	color: #2A3753;
+	border-bottom-color: #C3CAD9;
+}
+
+h3
+{
+	background-color: #EAF3FA;
+}
+
+h4
+{
+	background-color: #EAF3FA;
+	border-color: #FFF #CCE0F0 #CCE0F0 #FFF;
+	color: #4B7FC4;
+}
+
+fieldset
+{
+	border-color: #D0D8E9;
+}
+
+legend
+{
+	color: #2A3753;
+}
+
+/* Top */
+
+/* Top - Header */
+
+div.top div.header div.header-l
+{
+	background: transparent url(../images/header.gif) no-repeat scroll 0% 0%;
+}
+
+div.top div.header div.header-r
+{
+	background: transparent url(../images/header.gif) no-repeat scroll 100% 50%;
+}
+
+div.top div.header div.header-bg
+{
+	background: transparent url(../images/header.gif) repeat-x scroll 0% 100%;
+}
+
+div.top div.header h1 a
+{
+	color: #FFF;
+}
+
+div.top div.header h1 em
+{
+	color: #FFC944;
+}
+
+/* Navigation - Tab */
+
+div.navigation ul li
+{
+	background: transparent url(../images/navigation.gif) no-repeat scroll 0% 0%;
+}
+
+div.navigation ul li a,
+div.navigation ul li div
+{
+	color: #FFF;
+	background: transparent url(../images/navigation.gif) no-repeat scroll 100% 0%;
+}
+
+/* Navigation - Tab - Active */
+
+div.navigation ul li.active a
+{
+	color: #394664;
+}
+
+/* Wrapper - Location */
+
+div.wrapper div.location
+{
+	background: transparent url(../images/location.gif) no-repeat scroll 0% 0%;
+}
+
+div.wrapper div.location div.main
+{
+	color: #2560AD;
+	background: transparent url(../images/location.gif) no-repeat scroll 100% 0%;
+}
+
+div.wrapper div.location div.main a
+{
+	color: #2560AD;
+}
+
+/* Wrapper - Left */
+
+div.wrapper td.left div.menu
+{
+	background: transparent url(../images/menu.gif) no-repeat scroll 0% 0%;
+}
+
+div.wrapper td.left div.menu div.main
+{
+	background: transparent url(../images/menu.gif) no-repeat scroll 0% 100%;
+}
+
+div.wrapper td.left div.menu div.main ul.menu
+{
+	background-color: #EAF3FA;
+}
+
+div.wrapper td.left div.menu div.main ul.menu li a,
+div.wrapper td.left div.menu div.main ul.menu li span
+{
+	background-color: #EAF3FA;
+	border-color: #FFF #CCE0F0 #CCE0F0;
+	color: #4B7FC4;
+}
+
+div.wrapper td.left div.menu div.main ul.menu li span
+{
+	background-color: #D6E5F3;
+	color: #2560AD;
+}
+
+div.wrapper td.left div.menu div.main ul.menu li.hover a,
+div.wrapper td.left div.menu div.main ul.menu li.active a
+{
+	background-color: #D6E5F3;
+	color: #2560AD;
+}
+
+/* Wrapper - Right */
+
+div.wrapper td.right div.main div.templates fieldset
+{
+	background-color: #EAF3FA;
+}
+
+/* Footer */
+
+div.footer div.copyright
+{
+	color: #777;
+}
+
+div.footer div.menu ul.menu li a
+{
+	color: #777;
+}
+
+/* Messages */
+
+.message-red,
+.message-green,
+.message-blue,
+.message-yellow,
+.message-orange,
+.message-gold,
+.error,
+.success
+{
+	color: #333;
+}
+
+.message-red,
+.error
+{
+	background-color: #FFCCCC;
+	border-color: #E65555;
+}
+
+.message-green,
+.success
+{
+	background-color: #EBF7DF;
+	border-color: #7CBF4F;
+}
+
+.message-blue
+{
+	background-color: #CCDBFF;
+	border-color: #5580E5;
+}
+
+.message-yellow
+{
+	background-color: #FFFFCC;
+	border-color: #E5E555;
+}
+
+.message-orange
+{
+	background-color: #FFF1CC;
+	border-color: #E5BF55;
+}
+
+.message-gold
+{
+	background-color: #FFFBCC;
+	border-color: #E6DB55;
+}
+
+/* Box #1 */
+
+div.box-1 div.state
+{
+	border-color: #EBEBEB #C3CAD9 #C3CAD9 #EBEBEB;
+}
+
+div.box-1 div.closed h3
+{
+	background-color: #F5F5F5;
+}
+
+div.box-1 div.state h3 span,
+div.box-1 div.state div.inside a
+{
+	color: #2560AD;
+}
+
+div.box-1 div.closed h3 span,
+div.box-1 div.closed div.inside a
+{
+	color: #6A758A;
+}
+
+div.box-1 div.state h3 a
+{
+	color: #FFF;
+}
+
+div.box-1 div.state h3 a,
+div.box-1 div.state div.toggle
+{
+	background-color: #4B7FC4;
+}
+
+div.box-1 div.closed h3 a,
+div.box-1 div.closed div.toggle
+{
+	background-color: #6A758A;
+}
+
+div.box-1 div.state div.toggle
+{
+	background-image: url(../images/toggle-arrow.gif);
+}
+
+div.box-1 div.state div.inside a.screenshot
+{
+	background-color: #F1F1F1;
+	border-color: #CCC;
+}
