@@ -6,8 +6,8 @@
 	
 	$DB['master']['main'] = array(
 	"host" => "localhost",
-	"db" => "",
-	"user" => "",
+	"db" => "cms",
+	"user" => "root",
 	"pass" => "",
 	"prefix" => "cms_");
 
@@ -17,8 +17,8 @@
 	
 	$DB['slave']['main'] = array(
 	"host" => "localhost",
-	"db" => "",
-	"user" => "",
+	"db" => "cms",
+	"user" => "root",
 	"pass" => "",
 	"prefix" => "cms_");
 	

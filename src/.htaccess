@@ -1,0 +1,21 @@
+# Set some options
+Options -Indexes
+Options +FollowSymLinks
+
+# Set the default handler to index.php:
+DirectoryIndex index.php
+
+# Protect files and directories from prying eyes:
+<Files ~ "(\.(conf|inc|tpl|module|pl|sh|sql)|cache|plugins)$">
+	Order deny,allow
+	Deny from all
+</Files>
+
+# Various rewrite rules
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php?page=$1 [L,QSA,NE]
+</IfModule>
